@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- diseño de encabezado-->
+    <header class="header">
+   
+        <a href="#" class="logo">PORTAFOLIO</a>
+
+        <i class='bx bx-menu' id="menu-icono"></i>
+
+        <nav class="barra_navegaccion">
+            <a href="#home" class="active">Home</a> 
+            <a href="#about">Informacion</a>  
+            <a href="#servicios">Servicios_Habilidades</a>          
+            <a href="#portafolio">Portafolio</a> 
+            <a href="#Contacto">Contacto</a> 
+                  
+        </nav>
+
+    </header>
+
+    <!--diseño de la seccion de inicio-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hola soy,</h3>
+            <h1>Yordany Hernandez</h1>
+            <h3><span>Desarrollador Frond-end</span></h3>
+
+            <div class="social-media">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-instagram'></i></a>
+              <a href="#"><i class='bx bxl-linkedin'></i></a>
+              <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="#" class="btn">Descarga CV</a> 
+        </div>
+
+        <div class="home-img"></div>
+            <img src="img/home.jpeg" alt="home">
+
+
+    </section>
+
+    <!--Diseño de la sección-->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/latin.jpeg" alt="latin">
+        </div>
+
+        <div class="about-content">
+            <h2 class="encabezado">Acerca de<span>mi</span></h2>
+            <h3>Desarrollador Fronted</h3>
+            <p>uso de lenguajes de marcado como html css java</p>
+            <a href="#" class="btn">Leer más</a>
+
+        </div>
+
+    </section>
+
+    <!--Diseño selecció de servicios-->
+
+    <section class="servicios" id="servicios">
+        <h2 class="heading">Servicios_<span>Habilidades</span></h2>
+
+        <div class="contenedor-de-servicios">
+            <div class="caja-de-servicios">
+                <i class="bx bx-code-alt"></i>
+                
+                <h3>Desarrollo Web</h3>
+                <p>Enfocado en Fronted</p>
+
+                <!--Habilidades-->
+     <sección  id ="habilidades" clase ="sección-de-habilidades">
+        <div  class ="contenedor__habilidades contenedor-fluido">
+          <div  clase ="fila">
+            <div  clase =" habilidades1">
+              <h1  class ="habilidades_titulo seccion_titulo">Habilidades</h1>
+              <ul  clase ="habilidades__lista">
+                <li  class ="skill_item"><img  class =" skill_imagen " src ="img/html5-original.png" alt ="Imagen HTML">
+                  <h3>HTML5 </h3>
+                </li>
+                <li  class =" skill_item "><img  class =" skill_imagen " src ="img/css3-original.png" alt ="Imagen CSS">
+                  <h3>CSS3</h3>
+                </li>
+                <li class =" skill_item "><img  class =" skill_imagen " src ="img/javascript-original.png"
+                    alt =" ImagenJS ">
+                  <h3>JavaScript</h3>
+                </li>               
+              
+                <li  class =" skill_item "><img  class =" skillimagen skill_imagen--modificado "
+                    src ="img/git-original.png" alt = " Imagen Git " >  <h3>Git</h3>
+                </li> 
+                <li  class =" skill_item"><img  class =" skillimagen skill_imagen--modificado "
+                    src ="img/figma-original.png" alt =" Imagen Figma"><h3>Figma</h3>
+                </li>
+                <li  class =" skill_item"><img  class =" skillimagen skill_imagen--modificado "
+                    src ="img/react-original.png" alt =" Imagen React"><h3>React</h3>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div> 
+      </sección >
+                
+
+                
+            </div>
+        </div>      
+
+
+        <div class="contenedor-de-servicios">
+            <div class="caja-de-servicios">               
+                <h3>Analista de datos</h3>
+                <i class='bx-line-chart'></i> 
+                 <li  class =" skill_item "><img src ="img/python.jpeg" alt =" Imagen python"><h3>python</h3>
+                </li>
+                <li  class =" skill_item "><img src ="img/SQL.png" alt =" Imagen sql"><h3>My SQL</h3>
+                </li>
+
+                        
+            </div>
+        </div>
+
+
+    </section>
+
+
+    
+
+    <!--diseño seccion portafolio-->
+    <section class="portafolio" id="portafolio">
+        <h2 class="heading"><span>Proyectos</span></h2>
+
+        <div class="portafolio2">
+            <div style="background-image: url(img/barberia1.png);"></div>
+            <div style="background-image: url(img/Recetas.png);"></div>
+            <div style="background-image: url(img/App-media.png);"></div>
+            <div style="background-image: url(img/Encriptador.png);"></div>
+        </div>     
+                      
+       
+
+    </section>
+
+    <!--seccion de contacto-->
+    <section class="Contacto" id="Contacto">
+        <h2 class="heading"><span>Contacto</span></h2>
+
+       <form action="#">
+        <div class="input-box">
+           <input type="text" placeholder="Nombre">           
+           <input type="email" placeholder="email@dominio.com">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Number de celular">           
+            <input type="text" placeholder="Asunto">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="   Tu mensaje"></textarea>
+        <input type="submit" value="Sen Message" class="btn">
+     
+        </form>
+
+    </section>
+
+
+    <!--personalizado js-->
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
